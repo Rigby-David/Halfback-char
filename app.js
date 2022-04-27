@@ -27,6 +27,7 @@ headDropdown.addEventListener('change', () => {
     // update the dom for the head (use style.backgroundImage on the headEl div instead of trying to set the .src -- it's NOT an img tag!)
     headEl.style.backgroundImage = `url('./assets/${headDropdown.value}.png')`;
     // update the stats to show the new count (call displayStats() to do this work)
+    displayStats();
 });
 
 
@@ -36,8 +37,9 @@ middleDropdown.addEventListener('change', () => {
     // increment the middle change count state
     middleCount++;
     // update the dom for the middle (NOTE: use style.backgroundImage on the middleEl div instead of trying to set the .src -- it's NOT an img tag!)
-    
+    middleEl.style.backgroundImage = `url('./assets/${middleDropdown.value}.png')`
     // update the stats to show the new count (call displayStats() to do this work)
+    displayStats();
 });
 
 
@@ -65,7 +67,7 @@ catchphraseButton.addEventListener('click', () => {
 
 function displayStats() {
     // text content of the reportEl to tell the user how many times they've changed each piece of the state
-    reportEl.textContent = `Whoa! You swapped pants a total of ${headCount} times and middle a total of ${bottomCount} times!`;
+    reportEl.textContent = `Whoa! You swapped heads a total of ${headCount} times, middle a total of ${bottomCount} times and ${middleCount} times!`;
 }
 
 function displayCatchphrases() {
