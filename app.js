@@ -21,9 +21,9 @@ let bottomCount = 0;
 
 headDropdown.addEventListener('change', () => {
     // get the value of the head dropdown
-
+    console.log('showing selection', headDropdown.value);
     // increment the head change count state
-    
+    headCount++;
     // update the dom for the head (use style.backgroundImage on the headEl div instead of trying to set the .src -- it's NOT an img tag!)
 
     // update the stats to show the new count (call displayStats() to do this work)

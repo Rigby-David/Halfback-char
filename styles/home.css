@@ -4,3 +4,15 @@
     width: 100px;
     background-image: url('../assets/leg-pants.png');
 }
+
+#middle {
+    height: 100px;
+    width: 100px;
+    background-image: url('../assets/blue-middle');
+}
+
+#head {
+    height: 100px;
+    width: 100px;
+    background-image: url('..assets/bird-head');
+}
