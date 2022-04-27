@@ -1,18 +1,18 @@
 /* add home page styles here */
-#bottom {
+#head {
     height: 100px;
     width: 100px;
-    background-image: url('../assets/leg-pants.png');
+    background-image: url('..assets/bird-head.png');
 }
 
 #middle {
     height: 100px;
     width: 100px;
-    background-image: url('../assets/blue-middle');
+    background-image: url('../assets/blue-middle.png');
 }
 
-#head {
+#bottom {
     height: 100px;
     width: 100px;
-    background-image: url('..assets/bird-head');
+    background-image: url('../assets/leg-pants.png');
 }
