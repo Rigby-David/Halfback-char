@@ -56,7 +56,7 @@ bottomDropdown.addEventListener('change', () => {
 
 catchphraseButton.addEventListener('click', () => {
     // get the value of the catchphrase input
-    console.log('inputting', catchphraseButton.value);
+    // console.log('inputting', catchphraseButton.value);
     // push the new catchphrase to the catchphrase array in state
     catchphraseButton.push(catchphraseInput.value);
     // clear out the form input's value so it's empty to the user
@@ -72,7 +72,7 @@ function displayStats() {
 
 function displayCatchphrases() {
     // clear out the DOM for the currently displayed catchphrases
-
+    catchphraseInput
     // loop through each catchphrase in state
 
     // and for each catchphrase
